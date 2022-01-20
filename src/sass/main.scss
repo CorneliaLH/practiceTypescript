@@ -1,0 +1,84 @@
+body {
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(../img/movie.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#root {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h1,
+h2,
+.header2,
+p,
+.container {
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.container,
+.containerMovie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid white;
+  box-shadow: 4px 4px 4px darkgrey;
+}
+
+button {
+  box-shadow: 2px 2px 2px black;
+  color: pink;
+  background-color: blueviolet;
+  margin: 10px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.poster {
+  width: 200px;
+  cursor: pointer;
+}
+
+.containerMovie {
+  width: 50%;
+}
+.containerText {
+  padding: 20px;
+}
+
+img {
+  box-shadow: 4px 4px 4px rgb(136, 118, 118);
+}
+.containerPoster {
+}
+.posterMovie {
+  position: relative;
+
+  width: 150px;
+}
+
+.textMovie {
+  color: white;
+  font-size: 2rem;
+  text-shadow: black 20px 20px 20px 20px;
+  position: relative;
+  top: 110px;
+  left: 15px;
+  z-index: 1;
+  transform: rotate(-25deg);
+}
