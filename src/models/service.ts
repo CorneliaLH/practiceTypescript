@@ -1,5 +1,8 @@
 import { IService } from "./IService";
 
+/*class som tar emot titel på film och hämtar information från 
+imdb baserat på titel*/
+
 export class Service implements IService {
   title: string;
 
@@ -26,24 +29,3 @@ export class Service implements IService {
     // throw new Error("Method not implemented.");
   }
 }
-
-// console.log(encodeURI(data.Search[0].Title));
-
-// console.log(data.Search);
-// for (let i = 0; i < data.Search.length; i++) {
-//   console.log(data.Search[i].Title);
-//   fetch(
-//     "https://www.omdbapi.com/?i=tt3896198&apikey=33da284b&t=" +
-//       data.Search[i].Title +
-//       "&y=" +
-//       data.Search[i].Year +
-//       "&plot=full"
-//   )
-//     .then(function (response) {
-//       response.json();
-//     })
-//     .then(function (data) {
-//       console.log(data);
-//       return data;
-//     });
-// }

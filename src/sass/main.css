@@ -114,4 +114,8 @@ img {
   -webkit-transform: rotate(-25deg);
           transform: rotate(-25deg);
 }
+
+.notFoundPicture {
+  width: 200px;
+}
 /*# sourceMappingURL=main.css.map */
