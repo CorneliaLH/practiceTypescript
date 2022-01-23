@@ -89,7 +89,7 @@ window.onload = function () {
               if (response1.Poster != "N/A") {
                 posterMovie.src = response1.Poster;
               } else {
-                posterMovie.src = require("/src/img/movie3.jpg");
+                posterMovie.src = require("/src/img/movie2.jpg");
                 containerPoster.append(textMovie);
               }
               // posterMovie.src = response1.Poster;
