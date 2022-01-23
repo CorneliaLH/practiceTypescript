@@ -1,6 +1,4 @@
 {
-  "name": "practice Typescript",
-  "main": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
